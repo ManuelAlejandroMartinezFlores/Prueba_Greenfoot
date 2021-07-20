@@ -13,6 +13,7 @@ public class MyCat extends Cat
      */
     public void act()
     {
+        sleep(10);
         if (isSleepy() && isAlone()){
             sleep(10);
             setTired(false);
